@@ -4,7 +4,7 @@ import MyPosts from './MyPosts/MyPosts'
 
 const Profile = () => {
     return (
-        <div className={s.content}>
+        <div>
             <div>
                 <img src={'https://fullhdwall.com/wp-content/uploads/2018/07/Ocean-Image.jpeg'}/>
             </div>
