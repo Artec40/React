@@ -12,3 +12,14 @@
 .item a.activeLink {
     color: gold;
 }
+
+.friends{
+    padding-top:40px;
+    font-size: 32px;
+}
+
+.friendsElements{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}

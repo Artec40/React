@@ -17,5 +17,11 @@
 }
 
 .messages .message {
-color: white;
+    color: white;
+}
+
+.dialogsItems img {
+    height:35px;
+    width:35px;
+    padding-right: 10px;
 }

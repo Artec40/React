@@ -4,9 +4,8 @@ import Message from './Message/Message'
 import DialogItem from './DialogItem/DialogItem'
 
 const Dialogs = (props) => {
-
     let dialogsElements = props.state.dialogs
-        .map(d => <DialogItem name={d.name} id={d.id}/>)
+        .map(d => <DialogItem image={d.imageURL} name={d.name} id={d.id}/>)
 
     let messagesElements = props.state.messages
         .map(m => <Message message={m.message}/>)
