@@ -10,17 +10,18 @@ import Music from './components/Music/Music'
 import Settings from './components/Settings/Settings'
 import Friends from './components/Friends/Friends'
 import DialogsContainer from './components/Dialogs/DialogsContainer'
+import NavbarContainer from './components/Navbar/NavbarContainer'
 
 const App = (props) => {
     return (
         <div className={'app-wrapper'}>
             <Header/>
-            <Navbar state={props.state.sidebar}/>
+            <NavbarContainer/>
             <div className={'app-wrapper-content'}>
                 <Route path={'/dialogs'}
-                       render={() => <DialogsContainer store={props.store}/>}/>
+                       render={() => <DialogsContainer/>}/>
                 <Route path={'/profile'}
-                       render={() => <Profile store={props.store}/>}/>
+                       render={() => <Profile/>}/>
                 <Route path={'/news'} render={() => <News/>}/>
                 <Route path={'/music'} render={() => <Music/>}/>
                 <Route path={'/settings'} render={() => <Settings/>}/>

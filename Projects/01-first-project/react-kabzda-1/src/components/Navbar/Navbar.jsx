@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom'
 import Friend from './Friend/Friend'
 
 const Navbar = (props) => {
-
-    let friendsElements = props.state.friends.map((f) => <Friend image={f.imageURL} name={f.name}/>)
+debugger
+    let friendsElements = props.friends.map((f) => <Friend image={f.imageURL} name={f.name}/>)
 
     return (
         <nav className={s.nav}>
