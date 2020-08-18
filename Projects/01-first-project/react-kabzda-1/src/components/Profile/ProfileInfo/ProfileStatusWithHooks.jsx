@@ -1,9 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const ProfileStatusWithHooks = (props) => {
 
     let [editMode, setEditMode] = useState(false)
     let [status, setStatus] = useState(props.status)
+
+    // useEffect как синхронизация компоненты - в примере синхронизируемся когда изменится props.status
+    useEffect(() => {
+        setStatus(props.status)
+    }, [props.status]) // useEffect выполнится один раз из-за [props.status], для того чтобы локальный и глобальный state не путались.
 
     const activateEditMode = () => {
         setEditMode(true)
@@ -18,7 +23,7 @@ const ProfileStatusWithHooks = (props) => {
         setStatus(e.currentTarget.value)
     }
 
-        return (
+    return (
         <div>
             {!editMode &&
             <div>
