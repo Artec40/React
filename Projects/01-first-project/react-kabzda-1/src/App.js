@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './App.css'
 import HeaderContainer from './components/Header/HeaderContainer'
 import ProfileContainer from './components/Profile/ProfileContainer'
-import { Route, withRouter } from 'react-router-dom'
+import { BrowserRouter, Route, withRouter } from 'react-router-dom'
 import News from './components/News/News'
 import Music from './components/Music/Music'
 import Settings from './components/Settings/Settings'
@@ -11,10 +11,11 @@ import DialogsContainer from './components/Dialogs/DialogsContainer'
 import NavbarContainer from './components/Navbar/NavbarContainer'
 import UsersContainer from './components/Users/UsersContainer'
 import LoginPage from './Login/Login'
-import { connect } from 'react-redux'
+import { connect, Provider } from 'react-redux'
 import { compose } from 'redux'
 import { initializeApp } from '../src/redux/app-reducer'
 import Preloader from '../src/components/common/Preloader/Preloader'
+import store from 'react-kabzda-1/src/redux/redux-store'
 
 class App extends Component {
     componentDidMount() {
@@ -26,29 +27,33 @@ class App extends Component {
             return <Preloader/>
         }
         return (
-            <div className={'app-wrapper'}>
-                <HeaderContainer/>
-                <NavbarContainer/>
-                <div className={'app-wrapper-content'}>
-                    <Route path={'/dialogs'}
-                           render={() => <DialogsContainer/>}/>
+            <BrowserRouter>
+                <Provider store={store}>
+                    <div className={'app-wrapper'}>
+                        <HeaderContainer/>
+                        <NavbarContainer/>
+                        <div className={'app-wrapper-content'}>
+                            <Route path={'/dialogs'}
+                                   render={() => <DialogsContainer/>}/>
 
-                    <Route path={'/profile/:userId?'}
-                           render={() => <ProfileContainer/>}/>
+                            <Route path={'/profile/:userId?'}
+                                   render={() => <ProfileContainer/>}/>
 
-                    <Route path={'/news'} render={() => <News/>}/>
+                            <Route path={'/news'} render={() => <News/>}/>
 
-                    <Route path={'/users'}
-                           render={() => <UsersContainer/>}/>
+                            <Route path={'/users'}
+                                   render={() => <UsersContainer/>}/>
 
-                    <Route path={'/music'} render={() => <Music/>}/>
-                    <Route path={'/settings'} render={() => <Settings/>}/>
-                    <Route path={'/friends'} render={() => <Friends/>}/>
+                            <Route path={'/music'} render={() => <Music/>}/>
+                            <Route path={'/settings'} render={() => <Settings/>}/>
+                            <Route path={'/friends'} render={() => <Friends/>}/>
 
-                    <Route path={'/login'}
-                           render={() => <LoginPage/>}/>
-                </div>
-            </div>
+                            <Route path={'/login'}
+                                   render={() => <LoginPage/>}/>
+                        </div>
+                    </div>
+                </Provider>
+            </BrowserRouter>
         )
     }
 }
