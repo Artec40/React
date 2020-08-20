@@ -1,5 +1,5 @@
 import React from 'react'
-import { Field, reduxForm } from 'redux-form'
+import { reduxForm } from 'redux-form'
 import { Input } from '../components/common/FormsControls/FormsControls'
 import { required } from '../utils/validators/validators'
 import { connect } from 'react-redux'
@@ -11,9 +11,9 @@ import { createField } from '../components/common/FormsControls/FormsControls'
 const LoginForm = ({handleSubmit, error}) => {
     return (
         <form onSubmit={handleSubmit}>
-            {createField('Email', 'email', [required], {Input})}
-            {createField('password', 'password', [required], {Input}, {type: 'password'})}
-            {createField('rememberMe', 'password', [], {Input}, {type: 'checkbox'}, 'remember me')}
+            {createField('Email', 'email', [required], Input)}
+            {createField('password', 'password', [required], Input, {type: 'password'})}
+            {createField('rememberMe', 'password', [], Input, {type: 'checkbox'}, 'remember me')}
 
             {error && <div className={style.formSummaryError}>
                 {error}
