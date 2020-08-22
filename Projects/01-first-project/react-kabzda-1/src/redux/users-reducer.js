@@ -34,7 +34,7 @@ const usersReducer = (state = initialState, action) => {
 
         case SET_USERS:
             return {...state, users: action.users}
-//TODO На данный момент пользователей 5800+, пока оставляю решение как в уроке, как будет необходимость переделаю.
+
         case SET_CURRENT_PAGE:
             return {...state, currentPage: action.currentPage}
 

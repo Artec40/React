@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f27ec47-85d4-4492-a3b8-a60d72625271" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/react-kabzda-1/src/hoc/withSuspence.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-kabzda-1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-kabzda-1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-kabzda-1/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,16 +28,16 @@
         <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/common/Paginator/Paginator.module.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="13" />
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -61,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/common/Preloader/Preloader.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -69,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react-kabzda-1/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -151,7 +151,6 @@
         <option value="$PROJECT_DIR$/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileStatus.jsx" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/Login/Login.jsx" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileStatus.test.jsx" />
-        <option value="$PROJECT_DIR$/react-kabzda-1/package.json" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/components/Users/Users.jsx" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/components/common/Paginator/Paginator.module.css" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/components/common/Paginator/Paginator.jsx" />
@@ -159,6 +158,7 @@
         <option value="$PROJECT_DIR$/react-kabzda-1/src/App.test.js" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/hoc/withSuspence.js" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/App.js" />
+        <option value="$PROJECT_DIR$/react-kabzda-1/package.json" />
       </list>
     </option>
   </component>
@@ -203,6 +203,12 @@
               <item name="01-first-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="01-first-project" type="462c0819:PsiDirectoryNode" />
               <item name="react-kabzda-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="01-first-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01-first-project" type="462c0819:PsiDirectoryNode" />
+              <item name="react-kabzda-1" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="01-first-project" type="b2602c69:ProjectViewProjectNode" />
@@ -346,7 +352,7 @@
       <workItem from="1598032923584" duration="1338000" />
       <workItem from="1598034284382" duration="318000" />
       <workItem from="1598034614451" duration="6440000" />
-      <workItem from="1598085769231" duration="6851000" />
+      <workItem from="1598085769231" duration="8663000" />
     </task>
     <task id="LOCAL-00001" summary="Урок 93. Paginator - настройка постраничного вывода.">
       <created>1598098685306</created>
@@ -355,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598098685306</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Урок 94. React.lazy и React.suspence.">
+      <created>1598102967572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598102967572</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -370,7 +383,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186223000" />
+    <option name="totallyTimeSpent" value="188035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -382,18 +395,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="958" y="8" width="962" height="943" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.1401919" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49835527" visible="true" weight="0.29157427" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32897604" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.49946696" weight="0.32897604" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50692964" side_tool="true" visible="true" weight="0.49782136" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="11" sideWeight="0.49307036" visible="true" weight="0.49782136" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.51108646" side_tool="true" visible="true" weight="0.23850931" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49307036" weight="0.49782136" />
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49947312" weight="0.32897604" />
       <window_info id="Structure" order="1" sideWeight="0.50164473" side_tool="true" weight="0.27449948" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49002218" weight="0.20993789" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.48891354" visible="true" weight="0.23850931" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
@@ -449,7 +462,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Урок 93. Paginator - настройка постраничного вывода." />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 93. Paginator - настройка постраничного вывода." />
+    <MESSAGE value="Урок 94. React.lazy и React.suspence." />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 94. React.lazy и React.suspence." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -727,13 +741,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-kabzda-1/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/users-reducer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
@@ -781,7 +788,7 @@
     <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/common/Preloader/Preloader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -801,17 +808,24 @@
     <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/common/Paginator/Paginator.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="38" column="18" lean-forward="true" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-kabzda-1/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
         </state>
       </provider>
     </entry>
