@@ -9,6 +9,7 @@ import style from '../components/common/FormsControls/FormsControls.module.css'
 import { createField } from '../components/common/FormsControls/FormsControls'
 
 const LoginForm = ({handleSubmit, error}) => {
+
     return (
         <form onSubmit={handleSubmit}>
             {createField('Email', 'email', [required], Input)}
