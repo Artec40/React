@@ -6,7 +6,7 @@ import s from './ProfileInfo.module.css'
 import style from '../../common/FormsControls/FormsControls.module.css'
 
 const ProfileDataForm = ({handleSubmit, profile, error}) => {
-    return <form onSubmit={handleSubmit}>
+    return <form className={s.profileData} onSubmit={handleSubmit}>
         <div>
             <button>save</button>
         </div>

@@ -1,25 +1,29 @@
 .nav {
     grid-area: n;
-    background-color: burlywood;
+    background-color: #584E63;
     padding: 20px;
 }
 
-.item a {
+.item a, .item {
+    margin: 10px;
+    font-size: 20px;
     color: white;
     text-decoration: none;
 }
 
 .item a.activeLink {
-    color: gold;
+    border-bottom: 2px solid #FFFFFF;
 }
 
-.friends{
-    padding-top:40px;
+.friends a, .friends{
+    padding-top: 30px;
     font-size: 32px;
+    color: white;
 }
 
 .friendsElements{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    color: white;
 }

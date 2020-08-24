@@ -4,10 +4,10 @@ import s from './Post.module.css'
 const Post = (props) => {
     return (
         <div className={s.item}>
-            <img src='https://s3.amazonaws.com/liberty-uploads/wp-content/uploads/sites/1218/2015/09/avatarsucks.jpg'/>
+            <img src={props.image}/>
             {props.message}
             <div>
-                <span>{props.likeCount}</span>
+                <span>likes: {props.likeCount}</span>
             </div>
         </div>
     )

@@ -4,11 +4,18 @@ import Post from './Post/Post'
 import { Field, reduxForm } from 'redux-form'
 import { required, maxLengthCreator} from '../../../utils/validators/validators'
 import { Textarea } from '../../common/FormsControls/FormsControls'
+import userPhoto from '../../../assets/images/user.png'
+import Preloader from '../../common/Preloader/Preloader'
 
 const MyPosts = (props) => {
-console.log("RENDER")
+
+    if (!props.profile) {
+        return <Preloader/>
+    }
+
+    const image = props.profile.photos.large
     let postsElements =
-        props.posts.map(p => <Post key={p.id} message={p.message} likeCount={p.likesCount}/>)
+        props.posts.map(p => <Post key={p.id} message={p.message} likeCount={p.likesCount} image={image || userPhoto}/>)
 
     let onAddPost = (values) => {
         props.addPost(values.newPostText)

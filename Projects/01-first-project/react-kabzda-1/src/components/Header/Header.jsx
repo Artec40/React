@@ -1,10 +1,11 @@
 import React from 'react'
 import s from './Header.module.css'
 import { NavLink } from 'react-router-dom'
+import logo from '../../assets/images/logo.png'
 
 const Header = (props) => {
     return <header className={s.header}>
-        <img src={'https://seeklogo.com/images/C/company-name-logo-C74A7D6F5A-seeklogo.com.png'}/>
+        <img src={logo}/>
 
         <div className={s.loginBlock}>
             {props.isAuth ? <div>{props.login} - <button onClick={props.logout}>Log out</button></div> :

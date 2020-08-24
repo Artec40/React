@@ -3,7 +3,7 @@ import styles from './Paginator.module.css'
 import { useState } from 'react'
 import cn from 'classnames'
 
-let Paginator = ({totalItemsCount, pageSize, currentPage, onPageChanged, portionSize = 10}) => {
+let Paginator = ({totalItemsCount, pageSize, currentPage, onPageChanged, portionSize = 20}) => {
 
     let pagesCount = Math.ceil(totalItemsCount / pageSize)
 
