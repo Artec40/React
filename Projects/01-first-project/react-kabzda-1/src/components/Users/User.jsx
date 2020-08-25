@@ -1,15 +1,15 @@
 import React from 'react'
 import userPhoto from '../../assets/images/user.png'
-import styles from './users.module.css'
+import s from './users.module.css'
 import { NavLink } from 'react-router-dom'
 
 let User = ({user, followingInProgress, unfollow, follow}) => {
     return (
-        <div>
+        <div className={s.user}>
                 <span>
                 <div>
                     <NavLink to={'/profile/' + user.id}>
-                    <img src={user.photos.small != null ? user.photos.small : userPhoto} className={styles.userPhoto}/>
+                    <img src={user.photos.small != null ? user.photos.small : userPhoto} className={s.userPhoto}/>
                     </NavLink>
                 </div>
                 <div>

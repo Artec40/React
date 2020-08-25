@@ -1,3 +1,14 @@
+.user{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #FFFFFF;
+    margin: 10px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
 .userPhoto {
     width: 100px;
     height: 100px;

@@ -12,7 +12,10 @@
 }
 
 .loginBlock{
-    float: right
+    color: white;
+    font-size: 30px;
+    float: right;
+    padding: 5px 50px;
 }
 
 .loginBlock a{
