@@ -20,28 +20,6 @@
     color: #4D4B3B;
 }
 
-.dialogsItems img {
-    box-sizing: border-box;
-    height: 35px;
-    width: 35px;
-    padding-right: 10px;
-
-}
-
-.dialog {
-    height: 40px;
-    background: white;
-    margin: 20px;
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: 2px solid #4D4B3B;
-    min-width: 35px;
-}
-
-img {
-   border-radius:20px;
-}
-
 .message {
     height: 40px;
     width: 500px;

@@ -14,7 +14,7 @@ const LoginForm = ({handleSubmit, error, captchaUrl}) => {
         <form onSubmit={handleSubmit}>
             {createField('Email', 'email', [required], Input)}
             {createField('password', 'password', [required], Input, {type: 'password'})}
-            {createField('rememberMe', 'password', [], Input, {type: 'checkbox'}, 'remember me')}
+            {createField('rememberMe', 'rememberMe', [], Input, {type: 'checkbox'}, 'remember me')}
 
             {captchaUrl && <img src={captchaUrl}/>}
             {captchaUrl && createField('Symbols from image', 'captcha', [required], Input, {})}
